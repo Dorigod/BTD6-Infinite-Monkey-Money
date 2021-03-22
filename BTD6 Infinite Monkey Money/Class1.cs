@@ -34,7 +34,7 @@ namespace BTD6_Infinite_Monkey_Money
                 MelonLogger.Log("Creating config file");
                 using (StreamWriter sw = File.CreateText(config))
                 {
-                    sw.WriteLine("Amount=999999999");
+                    sw.WriteLine("Amount=20000");
                 }
                 MelonLogger.Log("Done Creating");
             }
